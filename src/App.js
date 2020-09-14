@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Intro from './pages/intro'
-import { BrowserRouter, Router, Route, NavLink, Switch, Redirect } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import Forms from './pages/Login'
 import Profile from './pages/Profile'
 import {DATA} from './database/db'

@@ -1,9 +1,7 @@
 import React from 'react'
 import Prof from '../../shared/ProfDuda.PNG'
 import {useState} from 'react'
-import {Button} from 'reactstrap'
 import './styles.css'
-import { Link } from 'react-router-dom'
 
 
 function Intro1(value){
@@ -47,7 +45,7 @@ function Intro1(value){
     }else if(value === 4){
         return(
             <div className="col-8 row" style={{ marginTop: "10vh"}}>
-                <div className="col-12 mt-0 mb-0" style={{height: "250px", marginTop: "250px"}}><img src={Prof}  style={{height: "250px", marginTop: "250px"}} className="" alt="Prof Duda"s className="m-0"/></div>
+                <div className="col-12 mt-0 mb-0" style={{height: "250px", marginTop: "250px"}}><img src={Prof}  style={{height: "250px", marginTop: "250px"}} alt="Prof Duda" className="m-0"/></div>
                 <div className="col-12 orange rounded shadow row py-5">
                 <h3 className="col-12 text-light text-center mt-5">A revolução é o que nos move</h3>
                 </div>
