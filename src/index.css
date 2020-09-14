@@ -1,0 +1,13 @@
+.orange{
+  background: linear-gradient(135deg, #f6891b 0%,#f4761e 100%);
+}
+
+
+
+.blue{
+  background: linear-gradient(90deg,#6e48aa,#9d50bb);
+}
+
+.orange2{
+  background: linear-gradient(to right, rgb(252,254,89), rgb(240, 61, 19));
+}
